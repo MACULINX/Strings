@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>c879a87d-e4b0-433f-a02e-d39a3f77c59b</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>B67A306AE6D6298B985DA753654D836B687D1060330F4635B6E389056F9E75E0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>c879a87d-e4b0-433f-a02e-d39a3f77c59b_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>c879a87d-e4b0-433f-a02e-d39a3f77c59b_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-04T19:36:54.560</Modified>
+      <Modified>2023-03-19T09:06:13.843</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-04T19:32:00.238</Modified>
+      <Modified>2023-03-19T09:06:13.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Marco.Bucci.3I.MAUIString.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Marco.Bucci.3I.MAUIString.runtimeconfig.json">
       <PackagePath>Marco.Bucci.3I.MAUIString.runtimeconfig.json</PackagePath>
-      <Modified>2023-03-04T19:22:50.278</Modified>
+      <Modified>2023-03-19T08:20:48.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Marco.Bucci.3I.MAUIString.dll">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Marco.Bucci.3I.MAUIString.dll">
       <PackagePath>Marco.Bucci.3I.MAUIString.dll</PackagePath>
-      <Modified>2023-03-04T19:36:53.288</Modified>
+      <Modified>2023-03-19T09:06:12.459</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Marco.Bucci.3I.MAUIString.exe</PackagePath>
-      <Modified>2023-03-04T19:36:53.307</Modified>
+      <Modified>2023-03-19T09:06:12.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marco\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1061,9 +1061,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-09-07T21:54:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Marco.Bucci.3I.MAUIString.deps.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Marco.Bucci.3I.MAUIString.deps.json">
       <PackagePath>Marco.Bucci.3I.MAUIString.deps.json</PackagePath>
-      <Modified>2023-03-04T19:36:54.381</Modified>
+      <Modified>2023-03-19T09:06:13.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marco\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1077,239 +1077,239 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-01-19T02:56:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-03-04T08:08:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2023-03-04T19:13:52.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2023-03-04T19:13:52.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2023-03-04T19:13:52.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2023-03-04T19:13:53.011</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-03-04T19:13:53.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-03-04T08:08:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-03-04T08:08:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2023-03-04T19:13:53.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2023-03-04T19:13:53.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2023-03-04T19:13:53.473</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2023-03-04T19:13:53.486</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2023-03-04T19:13:53.506</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2023-03-04T19:13:53.577</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2023-03-04T19:13:53.259</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2023-03-04T19:13:53.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2023-03-04T19:13:53.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2023-03-04T19:13:53.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2023-03-04T19:13:53.269</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2023-03-04T19:13:53.240</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2023-03-04T19:13:53.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2023-03-04T19:13:53.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2023-03-04T19:13:53.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2023-03-04T19:13:53.250</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2023-03-04T19:13:53.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2023-03-04T19:13:53.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2023-03-04T19:13:53.204</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2023-03-04T19:13:53.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2023-03-04T19:13:53.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2023-03-04T19:13:53.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2023-03-04T19:13:53.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2023-03-04T19:13:53.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2023-03-04T19:13:53.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2023-03-04T19:13:53.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2023-03-04T19:13:53.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2023-03-04T19:13:53.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2023-03-04T19:13:53.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2023-03-04T19:13:53.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2023-03-04T19:13:53.354</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2023-03-04T19:13:53.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2023-03-04T19:13:53.302</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2023-03-04T19:13:53.306</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2023-03-04T19:13:53.310</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2023-03-04T19:13:53.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2023-03-04T19:13:53.279</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2023-03-04T19:13:53.282</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2023-03-04T19:13:53.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2023-03-04T19:13:53.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2023-03-04T19:13:53.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2023-03-04T19:13:53.360</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2023-03-04T19:13:53.371</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2023-03-04T19:13:53.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2023-03-04T19:13:53.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2023-03-04T19:13:53.446</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2023-03-04T19:13:53.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2023-03-04T19:13:53.241</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2023-03-04T19:13:53.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2023-03-04T19:13:53.271</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Desktop\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\Strings\Marco.Bucci.3I.MAUIString\Marco.Bucci.3I.MAUIString\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-03-04T19:13:53.313</Modified>
     </AppxPackagedFile>

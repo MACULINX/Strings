@@ -23,13 +23,14 @@ public partial class MainPage : ContentPage
     int qtbLetter(string TextIn)
     {
         char[] txtCharArray = TextIn.ToCharArray();
-        int QtbLetter = 0;
+        int retVal = 0;
 
-        foreach (char c in txtCharArray)
-            if (char.IsLetter(c))
-                QtbLetter++;
+        for (int i = 0; i < Lenght(TextIn); i++)
+            if ((txtCharArray[i] >= 'A') && (txtCharArray[i] <= 'Z') ||
+               (txtCharArray[i] >= 'a') && (txtCharArray[i] <= 'z'))
+                retVal++;
 
-        return QtbLetter;
+        return retVal;
     }
 
     string txtUpper(string TextIn)
@@ -37,10 +38,10 @@ public partial class MainPage : ContentPage
         char[] txtCharArray = TextIn.ToCharArray();
 
         for(int i = 0; i < Lenght(TextIn) ; i++)
-            if (char.IsLetter(txtCharArray[i]) && (txtCharArray[i] > 97))
+            if ((txtCharArray[i] >= 'a') && (txtCharArray[i] <= 'z'))
             {
-                int cInt = (int)txtCharArray[i] & 0x5f;
-                txtCharArray[i] = (char)cInt;
+                int charInt = (int)txtCharArray[i] & 0x5f;
+                txtCharArray[i] = (char)charInt;
             }
 
         return new string(txtCharArray);
@@ -51,7 +52,7 @@ public partial class MainPage : ContentPage
         char[] txtCharArray = TextIn.ToCharArray();
 
         for (int i = 0; i < Lenght(TextIn); i++)
-            if (char.IsLetter(txtCharArray[i]) && (txtCharArray[i] < 90))
+            if ((txtCharArray[i] >= 'A') && (txtCharArray[i] <= 'Z'))
             {
                 int cInt = (int)txtCharArray[i] | 0x20;
                 txtCharArray[i] = (char)cInt;
@@ -60,46 +61,74 @@ public partial class MainPage : ContentPage
 
         return new string(txtCharArray);
     }
+
+    string txtReverse(string TextIn) 
+    {
+        char[] txtCharArray = TextIn.ToCharArray();
+        char[] txtCharArrayReverse = new char[Lenght(TextIn)];
+
+
+        for (int i = 0; i < Lenght(TextIn); i++) {
+            txtCharArrayReverse[i] = (char)txtCharArray[Lenght(TextIn)-i-1];
+        }
+
+        return new string(txtCharArrayReverse);
+    }
+
+    bool onlyAlphabet(string TextIn)
+    {
+        char[] txtCharArray = TextIn.ToCharArray();
+
+        for (int i = 0; i < Lenght(TextIn); i++)
+            if (!((txtCharArray[i] >= 'a') && (txtCharArray[i] <= 'z') ||
+               (txtCharArray[i] >= 'A') && (txtCharArray[i] <= 'Z')))
+                return false;
+
+        return true;
+    }
+
+    bool onlyAlphanumeric(string TextIn)
+    {
+        char[] txtCharArray = TextIn.ToCharArray();
+
+        for (int i = 0; i < Lenght(TextIn); i++)
+            if (!((txtCharArray[i] >= 'a') && (txtCharArray[i] <= 'z') ||
+               (txtCharArray[i] >= 'A') && (txtCharArray[i] <= 'Z') ||
+               (txtCharArray[i] >= '1') && (txtCharArray[i] <= '9')))
+
+                return false;
+
+        return true;
+    }
+
+    bool txtPalindrome(string TextIn) 
+    {
+        if (txtLower(TextIn) == txtLower(txtReverse(TextIn)))
+            return true;
+
+        return false;
+    }
+
     private void StringBnt(object sender, EventArgs e)
     {
-     
-        string[] SplittedWord = StringIn.Text.Split(' ');
-        int QtbWords = SplittedWord.Length;
-        
-        char[] txtCharArray = StringIn.Text.ToCharArray();
+        //string txtCapitalized = " ";
 
-        char[] txtCharArrayRev = StringIn.Text.ToCharArray();
-        Array.Reverse(txtCharArrayRev); 
-        string txtReverse = new string(txtCharArrayRev);
+        //for (int i = 0; i < SplittedWord.Length; i++)
+        //SplittedWord[i] = SplittedWord[i].Substring(0, 1).ToUpper() + SplittedWord[i].Substring(1).ToLower();
 
-        string txtPalindroma = "✘";
-        string txtPunteggiatura = "✘";
-        string txtCapitalized = " ";
-
-        for (int i = 0; i < SplittedWord.Length; i++)
-            SplittedWord[i] = SplittedWord[i].Substring(0, 1).ToUpper() + SplittedWord[i].Substring(1).ToLower();
-
-        txtCapitalized = String.Join(" ", SplittedWord);
-
-        if ( StringIn.Text.ToLower() == txtReverse.ToLower() )
-            txtPalindroma = "✔";
-
-        foreach (char c in txtCharArray)
-            if ( char.IsPunctuation(c) || char.IsSymbol(c) )
-                txtPunteggiatura = "✔";
+        //txtCapitalized = String.Join(" ", SplittedWord);
 
 
 
-        StringOut.Text = 
+        StringOut.Text =
             $"Maiuscolo: {txtUpper(StringIn.Text)} \n" +
             $"Minuscolo {txtLower(StringIn.Text)} \n" +
-            $"Capitalized: {txtCapitalized} \n" +
-            $"E' palidroma? {txtPalindroma} \n" +
-            $"Reverse: {txtReverse} \n" +
-            $"Quante parole: {QtbWords} \n" +
-            $"Quante lettere: {qtbLetter(StringIn.Text)} \n" +
-            $"Segni di punteggiatura/simboli: {txtPunteggiatura} \n";
-            
+            //$"Capitalized: {txtCapitalized} \n" +
+            $"Contiene solo lettere? {onlyAlphabet(StringIn.Text)} \n" +
+            $"Contiene solo lettere e numeri? {onlyAlphanumeric(StringIn.Text)} \n" +
+            $"E' palidroma? {txtPalindrome(StringIn.Text)} \n" +
+            $"Reverse: {txtReverse(StringIn.Text)} \n" +
+            $"Quante lettere: {qtbLetter(StringIn.Text)} \n";
 
 
     }

@@ -24575,11 +24575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\Strings\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString.csproj",
       "projectName": "Marco.Bucci.3I.MAUIString",
-      "projectPath": "D:\\Desktop\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\Strings\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString.csproj",
       "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\Strings\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

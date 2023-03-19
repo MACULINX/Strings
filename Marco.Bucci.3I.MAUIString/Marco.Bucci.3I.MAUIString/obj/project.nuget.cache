@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZvekC6FbUUyd1GvCvZKRh83arkRboYxSGSJaUbyff1kUuwU83v2WG9UQrN4a0XyaOBYBL7FRIkJRemjtJk6Q8A==",
+  "dgSpecHash": "RGXkAqrldXP4tx8dAY7VZMmqhy/YOxuy2fQbe7uLOj8NoDBv0PCA87AOorQRIdu+zlbN2T7pg4M/qnit0GXJFg==",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString.csproj",
+  "projectFilePath": "D:\\Documents\\GitHub\\Strings\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString\\Marco.Bucci.3I.MAUIString.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marco\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
