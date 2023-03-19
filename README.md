@@ -16,6 +16,7 @@ StringBuilder, ToUpper(), ToLower(), Count(), Lenght(), IsLetter(), IsNumber()
   - Se contiene solo caratteri alfabetici
   - Se contiene solo caratteri alfanumerici
   - Quante lettere contiene
+  - Quante parole contiene
   - La sua versione reverse
   - La versione Capitalized
   - Se e' palindroma
