@@ -1,4 +1,6 @@
-﻿namespace Bucci.Marco._3i.MAUIString;
+﻿using System.Runtime.InteropServices;
+
+namespace Bucci.Marco._3i.MAUIString;
 
 public partial class MainPage : ContentPage
 {
@@ -29,6 +31,22 @@ public partial class MainPage : ContentPage
             if ((txtCharArray[i] >= 'A') && (txtCharArray[i] <= 'Z') ||
                (txtCharArray[i] >= 'a') && (txtCharArray[i] <= 'z'))
                 retVal++;
+
+        return retVal;
+    }
+
+    int qtbWord(string TextIn)
+    {
+        char[] txtCharArray = TextIn.ToCharArray();
+        int retVal = 0;
+
+        for (int i = 0; i < Lenght(TextIn) - 1; i++)
+            if (((txtCharArray[i + 1] >= 'A') && (txtCharArray[i + 1] <= 'Z') ||
+               (txtCharArray[i + 1] >= 'a') && (txtCharArray[i + 1] <= 'z')) &&
+               txtCharArray[i] == ' ')
+
+                retVal++;
+        retVal++;
 
         return retVal;
     }
@@ -110,28 +128,34 @@ public partial class MainPage : ContentPage
         return false;
     }
 
+    string txtCapitalized(string TextIn)
+    {
+
+        char[] txtCharArray = TextIn.ToCharArray();
+
+        int charInt = (int)txtCharArray[0] & 0x5f;
+        txtCharArray[0] = (char)charInt;
+
+        for (int i = 0; i < Lenght(TextIn) - 1; i++)
+            if (((txtCharArray[i + 1] >= 'a') && (txtCharArray[i + 1] <= 'z')) && txtCharArray[i] == ' '){ 
+                charInt = (int)txtCharArray[i+1] & 0x5f;
+                txtCharArray[i+1] = (char)charInt;
+            }
+        return new string(txtCharArray); 
+    }
+
     private void StringBnt(object sender, EventArgs e)
     {
-        //string txtCapitalized = " ";
-
-        //for (int i = 0; i < SplittedWord.Length; i++)
-        //SplittedWord[i] = SplittedWord[i].Substring(0, 1).ToUpper() + SplittedWord[i].Substring(1).ToLower();
-
-        //txtCapitalized = String.Join(" ", SplittedWord);
-
-
-
         StringOut.Text =
             $"Maiuscolo: {txtUpper(StringIn.Text)} \n" +
             $"Minuscolo {txtLower(StringIn.Text)} \n" +
-            //$"Capitalized: {txtCapitalized} \n" +
+            $"Capitalized: {txtCapitalized(StringIn.Text)} \n" +
             $"Contiene solo lettere? {onlyAlphabet(StringIn.Text)} \n" +
             $"Contiene solo lettere e numeri? {onlyAlphanumeric(StringIn.Text)} \n" +
             $"E' palidroma? {txtPalindrome(StringIn.Text)} \n" +
             $"Reverse: {txtReverse(StringIn.Text)} \n" +
-            $"Quante lettere: {qtbLetter(StringIn.Text)} \n";
-
-
+            $"Quante lettere: {qtbLetter(StringIn.Text)} \n" +
+            $"Quante parole: {qtbWord(StringIn.Text)} \n";
     }
 }
 
