@@ -2,7 +2,7 @@
 Strings, un programma che data una stringa ti permette di avere delle informazioni riguardanti quella stringa.
 
 ## Descrizione del progretto
-Realizzazione di un'app MAUI per lo studio delle scringhe in ASCII 7bit.
+Realizzazione di un'app MAUI per lo studio delle stringhe in ASCII 7bit.
 
 Senza utilizzare le classi/metodi per la manipolazione delle stringhe.
 
@@ -18,6 +18,6 @@ StringBuilder, ToUpper(), ToLower(), Count(), Lenght(), IsLetter(), IsNumber()
   - Quante lettere contiene
   - Quante parole contiene
   - La sua versione reverse
-  - La versione Capitalized
+  - La versione capitalized
   - Se e' palindroma
  
