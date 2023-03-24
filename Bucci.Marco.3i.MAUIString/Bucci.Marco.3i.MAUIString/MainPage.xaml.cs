@@ -129,9 +129,8 @@ public partial class MainPage : ContentPage
     }
 
     string txtCapitalized(string TextIn)
-    {
-
-        char[] txtCharArray = TextIn.ToCharArray();
+    { 
+        char[] txtCharArray = txtLower(TextIn).ToCharArray();
 
         int charInt = (int)txtCharArray[0] & 0x5f;
         txtCharArray[0] = (char)charInt;
@@ -176,7 +175,6 @@ public partial class MainPage : ContentPage
             $"E' palidroma? {txtPalindrome(StringIn.Text)} \n" +
             $"Reverse: {txtReverse(StringIn.Text)} \n" +
             $"Quante lettere: {qtbLetter(StringIn.Text)} \n" +
-            $"Quante lettere: {splittedWord(StringIn.Text)} \n" +
             $"Quante parole: {qtbWord(StringIn.Text)} \n";
     }
 }
