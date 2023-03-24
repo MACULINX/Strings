@@ -122,7 +122,7 @@ public partial class MainPage : ContentPage
 
     bool txtPalindrome(string TextIn)
     {
-        if (txtLower(TextIn) == txtLower(txtReverse(TextIn)))
+        if (splittedWord(txtLower(TextIn)) == splittedWord(txtLower(txtReverse(TextIn))))
             return true;
 
         return false;
@@ -144,6 +144,27 @@ public partial class MainPage : ContentPage
         return new string(txtCharArray); 
     }
 
+    string splittedWord(string TextIn) 
+    {
+        int j = 0;
+        int count = 0;
+        char[] txtCharArray = TextIn.ToCharArray();
+        
+        for (int i = 0; i < Lenght(TextIn); i++)
+            if (txtCharArray[i] != ' ')
+                count++;
+
+        char[] SplittedArray = new char[count];
+
+        for (int i = 0; i < Lenght(TextIn); i++)
+        
+            if (txtCharArray[i] != ' ') { 
+                SplittedArray[j] = txtCharArray[i];
+                j++;
+            }
+        return new string(SplittedArray);
+    }
+
     private void StringBnt(object sender, EventArgs e)
     {
         StringOut.Text =
@@ -155,6 +176,7 @@ public partial class MainPage : ContentPage
             $"E' palidroma? {txtPalindrome(StringIn.Text)} \n" +
             $"Reverse: {txtReverse(StringIn.Text)} \n" +
             $"Quante lettere: {qtbLetter(StringIn.Text)} \n" +
+            $"Quante lettere: {splittedWord(StringIn.Text)} \n" +
             $"Quante parole: {qtbWord(StringIn.Text)} \n";
     }
 }
