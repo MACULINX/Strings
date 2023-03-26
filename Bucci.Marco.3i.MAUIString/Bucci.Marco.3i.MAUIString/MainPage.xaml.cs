@@ -28,8 +28,7 @@ public partial class MainPage : ContentPage
         int retVal = 0;
 
         for (int i = 0; i < Lenght(TextIn); i++)
-            if ((txtCharArray[i] >= 'A') && (txtCharArray[i] <= 'Z') ||
-               (txtCharArray[i] >= 'a') && (txtCharArray[i] <= 'z'))
+            if (isLetter(txtCharArray[i]))
                 retVal++;
 
         return retVal;
@@ -41,12 +40,11 @@ public partial class MainPage : ContentPage
         int retVal = 0;
 
         for (int i = 0; i < Lenght(TextIn) - 1; i++)
-            if (((txtCharArray[i + 1] >= 'A') && (txtCharArray[i + 1] <= 'Z') ||
-               (txtCharArray[i + 1] >= 'a') && (txtCharArray[i + 1] <= 'z')) &&
-               txtCharArray[i] == ' ')
-
+            if ((isLetter(txtCharArray[i+1])) && txtCharArray[i] == ' ')
                 retVal++;
-        retVal++;
+
+        if (Lenght(TextIn) != 0)
+            retVal++;
 
         return retVal;
     }
@@ -96,25 +94,35 @@ public partial class MainPage : ContentPage
 
     bool onlyAlphabet(string TextIn)
     {
+        if (Lenght(TextIn) == 0)
+            return false;
+
         char[] txtCharArray = TextIn.ToCharArray();
 
         for (int i = 0; i < Lenght(TextIn); i++)
-            if (!((txtCharArray[i] >= 'a') && (txtCharArray[i] <= 'z') ||
-               (txtCharArray[i] >= 'A') && (txtCharArray[i] <= 'Z')))
+            if (!(isLetter(txtCharArray[i])))
                 return false;
+
+        return true;
+    }
+
+    bool isLetter(char CharIn)
+    {
+        if (!((CharIn >= 'a') && (CharIn <= 'z') || (CharIn >= 'A') && (CharIn <= 'Z')))
+            return false;
 
         return true;
     }
 
     bool onlyAlphanumeric(string TextIn)
     {
+        if (Lenght(TextIn) == 0)
+            return false;
+
         char[] txtCharArray = TextIn.ToCharArray();
 
         for (int i = 0; i < Lenght(TextIn); i++)
-            if (!((txtCharArray[i] >= 'a') && (txtCharArray[i] <= 'z') ||
-               (txtCharArray[i] >= 'A') && (txtCharArray[i] <= 'Z') ||
-               (txtCharArray[i] >= '1') && (txtCharArray[i] <= '9')))
-
+            if (!(isLetter(txtCharArray[i]) || (txtCharArray[i] >= '1') && (txtCharArray[i] <= '9')))
                 return false;
 
         return true;
@@ -122,6 +130,9 @@ public partial class MainPage : ContentPage
 
     bool txtPalindrome(string TextIn)
     {
+        if (Lenght(TextIn) == 0) 
+            return false;
+
         if (splittedWord(txtLower(TextIn)) == splittedWord(txtLower(txtReverse(TextIn))))
             return true;
 
@@ -132,12 +143,14 @@ public partial class MainPage : ContentPage
     { 
         char[] txtCharArray = txtLower(TextIn).ToCharArray();
 
-        int charInt = (int)txtCharArray[0] & 0x5f;
-        txtCharArray[0] = (char)charInt;
+        if ((Lenght(TextIn) != 0) && (txtCharArray[0] >= 'a') && (txtCharArray[0] <= 'z')) {
+            int charInt = (int)txtCharArray[0] & 0x5f;
+            txtCharArray[0] = (char)charInt;
+        }
 
         for (int i = 0; i < Lenght(TextIn) - 1; i++)
             if (((txtCharArray[i + 1] >= 'a') && (txtCharArray[i + 1] <= 'z')) && txtCharArray[i] == ' '){ 
-                charInt = (int)txtCharArray[i+1] & 0x5f;
+                int charInt = (int)txtCharArray[i+1] & 0x5f;
                 txtCharArray[i+1] = (char)charInt;
             }
         return new string(txtCharArray); 
