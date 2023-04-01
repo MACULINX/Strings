@@ -13,11 +13,12 @@ StringBuilder, ToUpper(), ToLower(), Count(), Lenght(), IsLetter(), IsNumber()
   
   - Versione maiuscola
   - versione minuscola
+  - La versione capitalized
+  - La versione crittografata
+  - Se e' palindroma
+  - La sua versione reverse
   - Se contiene solo caratteri alfabetici
   - Se contiene solo caratteri alfanumerici
   - Quante lettere contiene
   - Quante parole contiene
-  - La sua versione reverse
-  - La versione capitalized
-  - Se e' palindroma
  
