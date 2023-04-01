@@ -30,7 +30,7 @@
             <Button
                 x:Name="Button"
                 Text="Click me"
-                Clicked="StringBnt"
+                Clicked="StringBtn"
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>
