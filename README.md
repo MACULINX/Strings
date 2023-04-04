@@ -19,6 +19,7 @@ StringBuilder, ToUpper(), ToLower(), Count(), Lenght(), IsLetter(), IsNumber()
   - La sua versione reverse
   - Se contiene solo caratteri alfabetici
   - Se contiene solo caratteri alfanumerici
+  - Se e' un isogromma
   - Quante lettere contiene
   - Quante parole contiene
  

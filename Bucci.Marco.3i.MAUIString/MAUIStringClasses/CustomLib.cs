@@ -272,6 +272,21 @@ namespace Bucci.Marco._3i.MAUIString
             //Ritorno la stringa crittografata
             return new string(txtCharArray);
         }
+        public bool isIsogram(string TextIn) 
+        {
+            //Converto la stringa in un char[]
+            char[] txtCharArray = TextIn.ToCharArray ();
+
+            //Doppio ciclo FOR per controllare un singolo char con gli altri
+            for (int i = 0; i < lenght - 1; i++)
+                for (int j = i + 1; j < lenght; j++)
+                    if (txtCharArray[i] == txtCharArray[j])
+                        //Nel caso ci fossero 2 char uguali, non e' un isogramma
+                        return false;
+
+            //Nel caso non ci fossero 2 char uguali, e' un isogramma
+            return true;
+        }
     }
 
 }

@@ -25,6 +25,7 @@ public partial class MainPage : ContentPage
             $"Reverse: {StringLib.txtReverse(StringIn.Text)} \n" +
             $"Contiene solo lettere? {StringLib.onlyAlphabet(StringIn.Text)} \n" +
             $"Contiene solo lettere e numeri? {StringLib.onlyAlphanumeric(StringIn.Text)} \n" +
+            $"E' un isogromma? {StringLib.isIsogram(StringIn.Text)} \n" +
             $"Quante lettere: {StringLib.qtbLetter(StringIn.Text)} \n" +
             $"Quante parole: {StringLib.qtbWord(StringIn.Text)} \n";
 
