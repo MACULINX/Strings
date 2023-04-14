@@ -107,12 +107,15 @@ namespace Bucci.Marco._3i.MAUIString
             char[] txtCharArrayReverse = new char[lenght];
 
             //Ciclo FOR per scorrere il vettore
-            for (int i = 0; i < lenght; i++)
-                //Inserisco alla posizione opposta il carattere del primo char[] nel secondo char[]
-                txtCharArrayReverse[i] = (char)txtCharArray[lenght - i - 1];
+            for (int i = 0; i < lenght / 2; i++){
+                //Inverto la posizione del carattere preso in cosiderazione con il suo opposto
+                char tmp = txtCharArray[i];
+                txtCharArray[i] = txtCharArray[lenght - i - 1];
+                txtCharArray[lenght - i - 1] = tmp;
+            }
 
             //Ritorno la stringa invertita
-            return new string(txtCharArrayReverse);
+            return new string(txtCharArray);
         }
 
         public bool onlyAlphabet(string TextIn)
