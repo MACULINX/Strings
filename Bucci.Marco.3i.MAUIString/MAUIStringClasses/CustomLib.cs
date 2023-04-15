@@ -103,8 +103,6 @@ namespace Bucci.Marco._3i.MAUIString
         {
             //Converto la stringa in un char[]
             char[] txtCharArray = TextIn.ToCharArray();
-            //Creo un vettore con la stessa lunghezza del primo char[]
-            char[] txtCharArrayReverse = new char[lenght];
 
             //Ciclo FOR per scorrere il vettore
             for (int i = 0; i < lenght / 2; i++){
